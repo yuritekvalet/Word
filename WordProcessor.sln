@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordProcessor", "WordProcessor\WordProcessor.csproj", "{4425FF61-6B14-46A0-8B8F-1FBE5A57F8FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{99078042-4F5D-4A47-9223-525CCC4B178C} = {99078042-4F5D-4A47-9223-525CCC4B178C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{99078042-4F5D-4A47-9223-525CCC4B178C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4425FF61-6B14-46A0-8B8F-1FBE5A57F8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4425FF61-6B14-46A0-8B8F-1FBE5A57F8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4425FF61-6B14-46A0-8B8F-1FBE5A57F8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4425FF61-6B14-46A0-8B8F-1FBE5A57F8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99078042-4F5D-4A47-9223-525CCC4B178C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99078042-4F5D-4A47-9223-525CCC4B178C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99078042-4F5D-4A47-9223-525CCC4B178C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99078042-4F5D-4A47-9223-525CCC4B178C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB781A66-15B9-4267-A63F-B4B330F947F3}
+	EndGlobalSection
+EndGlobal
